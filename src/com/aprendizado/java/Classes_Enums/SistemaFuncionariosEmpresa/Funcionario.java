@@ -25,8 +25,8 @@ public class Funcionario {
     @Override
     public String toString() {
         return "Funcionário: " +
-                "nome: '" + nomeFuncionario + '\'' +
-                "; departamento: " + departamento +
+                "nome: '" + nomeFuncionario +
+                "; departamento: " + departamento.getNomeDepartamento() +
                 "; cargo: " + cargo +
                 "; salário: " + salario;
     }
