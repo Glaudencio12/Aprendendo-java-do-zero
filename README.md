@@ -15,4 +15,5 @@
 - Princípios de coesão e acoplamento em POO;
 - Herança;
 - Classes Abstratas;
-- Classes Enums.
+- Classes Enums;
+- Interfaces.
