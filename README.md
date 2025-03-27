@@ -18,3 +18,4 @@
 - Classes Enums;
 - Interfaces;
 - Polimorfismo.
+- Exceções(Error, Checked, Unchecked)
