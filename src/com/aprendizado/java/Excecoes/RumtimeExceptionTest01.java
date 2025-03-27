@@ -7,13 +7,14 @@ public class RumtimeExceptionTest01 {
             System.out.println("Soma dos elementos do vetor 1" + somaVetor(vetor1));
 
             int[] vetor2 = {};
-            System.out.println("Soma dos elementos do vetor " + somaVetor(vetor2));
-        }catch (IllegalArgumentException e){
+            System.out.println("Soma dos elementos do vetor 2" + somaVetor(vetor2));
+        }
+        catch (IllegalArgumentException e){
             System.err.println("O vetor não pode ser nulo: " + e.getMessage());
             e.printStackTrace();
         }
     }
-    public static int somaVetor(int[] nums){
+    public static int somaVetor(int[] nums) throws IllegalArgumentException{
         int soma = 0;
         if (nums == null || nums.length == 0) {
             throw new IllegalArgumentException("Argumento inválido");
