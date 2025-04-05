@@ -1,4 +1,4 @@
-package com.aprendizado.java.Excecoes;
+package com.aprendizado.java.Excecoes.Checked;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,12 +8,12 @@ public class IOExceptionTest {
         criarArquivo();
     }
     public static void criarArquivo(){
-        File file = new File("arquivo\\texto.txt"); //Cria um novo arquivo dentro da pasta arquivo
+        File file = new File("arquivo\\texto.txt");
         try {
-            if (file.createNewFile()) { //Verifica se o arquivo foi criado
+            if (file.createNewFile()) {
                 System.out.println("Arquivo criado com sucesso!");
             }
-        } catch (IOException e){ //Se o arquivo não tiver sido criado, uma exceção é lançada
+        } catch (IOException e){
             e.printStackTrace();
         }
     }
