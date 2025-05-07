@@ -1,4 +1,4 @@
-package com.aprendizado.java.Excecoes.Checked;
+package com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Checked;
 
 import java.io.File;
 import java.io.IOException;

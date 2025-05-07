@@ -19,3 +19,6 @@
 - Interfaces;
 - Polimorfismo.
 - Exceções(Error, Checked, Unchecked)
+- Classes Utilitárias:
+  * Strings
+  
