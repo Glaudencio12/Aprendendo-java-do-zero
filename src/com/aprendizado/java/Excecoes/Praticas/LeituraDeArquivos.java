@@ -1,4 +1,4 @@
-package com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Praticas;
+package com.aprendizado.java.Excecoes.Praticas;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;

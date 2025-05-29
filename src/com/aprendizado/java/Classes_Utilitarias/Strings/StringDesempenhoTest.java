@@ -1,4 +1,4 @@
-package com.aprendizado.java.Classes_Utilitarias;
+package com.aprendizado.java.Classes_Utilitarias.Strings;
 
 public class StringDesempenhoTest {
     public static void main(String[] args) {

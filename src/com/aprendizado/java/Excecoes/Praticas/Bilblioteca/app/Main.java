@@ -1,9 +1,9 @@
-package com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Praticas.Bilblioteca.app;
+package com.aprendizado.java.Excecoes.Praticas.Bilblioteca.app;
 
-import com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Praticas.Bilblioteca.Exceptions.*;
-import com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Praticas.Bilblioteca.Models.Livro;
-import com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Praticas.Bilblioteca.Models.Usuario;
-import com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Praticas.Bilblioteca.Service.Biblioteca;
+import com.aprendizado.java.Excecoes.Praticas.Bilblioteca.Exceptions.*;
+import com.aprendizado.java.Excecoes.Praticas.Bilblioteca.Models.Livro;
+import com.aprendizado.java.Excecoes.Praticas.Bilblioteca.Models.Usuario;
+import com.aprendizado.java.Excecoes.Praticas.Bilblioteca.Service.Biblioteca;
 
 public class Main {
     public static void main(String[] args) {

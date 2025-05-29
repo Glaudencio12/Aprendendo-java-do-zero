@@ -1,4 +1,4 @@
-package com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Unchecked;
+package com.aprendizado.java.Excecoes.Unchecked;
 
 public class RumtimeExceptionTest01 {
     public static void main(String[] args) {

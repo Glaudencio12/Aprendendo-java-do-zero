@@ -1,4 +1,4 @@
-package com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Praticas.Bilblioteca.Models;
+package com.aprendizado.java.Excecoes.Praticas.Bilblioteca.Models;
 
 public class Usuario {
     private String nome;

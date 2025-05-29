@@ -1,4 +1,4 @@
-package com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes;
+package com.aprendizado.java.Classes_Utilitarias.Strings;
 
 public class StringBuilderTest {
     public static void main(String[] args) {

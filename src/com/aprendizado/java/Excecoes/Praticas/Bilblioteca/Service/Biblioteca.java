@@ -1,8 +1,8 @@
-package com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Praticas.Bilblioteca.Service;
+package com.aprendizado.java.Excecoes.Praticas.Bilblioteca.Service;
 
-import com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Praticas.Bilblioteca.Exceptions.*;
-import com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Praticas.Bilblioteca.Models.Livro;
-import com.aprendizado.java.Classes_Utilitarias.Strings.Excecoes.Praticas.Bilblioteca.Models.Usuario;
+import com.aprendizado.java.Excecoes.Praticas.Bilblioteca.Exceptions.*;
+import com.aprendizado.java.Excecoes.Praticas.Bilblioteca.Models.Livro;
+import com.aprendizado.java.Excecoes.Praticas.Bilblioteca.Models.Usuario;
 
 import java.util.ArrayList;
 import java.util.HashMap;
