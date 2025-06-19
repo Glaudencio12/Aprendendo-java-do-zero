@@ -21,5 +21,5 @@
 - Exceções(Error, Checked, Unchecked)
 - Classes Utilitárias:
   * Strings
-  * Datas(Date, Calendar, DateFormat, Locale, SimpleDateFormat)
+  * Datas(Date, Calendar, DateFormat, Locale, SimpleDateFormat, LocalDate)
   
