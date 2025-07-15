@@ -2,7 +2,7 @@ package com.aprendizado.java.Classes_Utilitarias.Date;
 
 import java.time.*;
 
-public class DurationTest {
+public class   DurationTest {
     public static void main(String[] args) {
         System.out.println("Usando duration:");
 

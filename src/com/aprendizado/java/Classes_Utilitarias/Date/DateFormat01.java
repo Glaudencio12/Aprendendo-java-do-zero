@@ -9,7 +9,7 @@ import java.util.Locale;
 
 public class DateFormat01 {
     public static void main(String[] args) {
-       localeDate();
+       dateFormat();
     }
 
     public static void localeDate(){
