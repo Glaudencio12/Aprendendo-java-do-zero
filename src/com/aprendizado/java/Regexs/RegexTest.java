@@ -14,11 +14,22 @@ public class RegexTest {
         String padrao7 = "[^f,5,2,s]"; // Não busca os valores dentro dos colchetes
 
         String texto = "53ugd39 f@fsf8w24tb";
-        Pattern pattern = Pattern.compile(padrao7);
-        Matcher matcher = pattern.matcher(texto);
+        Pattern patternCompile1 = Pattern.compile(padrao7);
+        Matcher matcher1 = patternCompile1.matcher(texto);
 
-        while (matcher.find()){
-            System.out.println("Índice: " + matcher.start() + " valor: " + matcher.group());
+        while (matcher1.find()){
+            System.out.println("Índice: " + matcher1.start() + " valor: " + matcher1.group());
+        }
+
+        System.out.println("+++++++++++Usando Range+++++++++++");
+
+        String regex = "0[Xx]([0-9a-fA-F])+(\\s|$)";
+        String numHex = "0x1234 12 0x 0x 0xABCDF 0xF";
+        Pattern patternCompile2 = Pattern.compile(regex);
+        Matcher matcher2 = patternCompile2.matcher(numHex);
+
+        while (matcher2.find()){
+            System.out.println("Índice: " + matcher2.start() + " - Número hexadecimal: " + matcher2.group());
         }
     }
 }
