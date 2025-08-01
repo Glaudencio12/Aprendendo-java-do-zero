@@ -1,5 +1,7 @@
 package com.aprendizado.java.Classes_Utilitarias.equals;
 
+import java.util.Objects;
+
 public class Smartphone {
     private int numeroSerial;
     private String marca;
@@ -31,6 +33,12 @@ public class Smartphone {
         if (obj == null) return false;
         if (getClass() != obj.getClass()) return false;
         Smartphone smartphone = (Smartphone) obj;
-        return (smartphone.getMarca() != null && smartphone.getMarca().equals(this.getMarca()));
+        return (smartphone.getMarca().equals(this.getMarca()) &&
+                smartphone.getNumeroSerial() == this.getNumeroSerial());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(marca, numeroSerial);
     }
 }
