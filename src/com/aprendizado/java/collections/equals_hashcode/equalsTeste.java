@@ -1,4 +1,4 @@
-package com.aprendizado.java.Classes_Utilitarias.equals;
+package com.aprendizado.java.collections.equals_hashcode;
 
 public class equalsTeste {
     public static void main(String[] args) {

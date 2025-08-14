@@ -1,4 +1,4 @@
-package com.aprendizado.java.Classes_Utilitarias.equals;
+package com.aprendizado.java.collections.equals_hashcode;
 
 import java.util.Objects;
 
@@ -40,5 +40,13 @@ public class Smartphone {
     @Override
     public int hashCode() {
         return Objects.hash(marca, numeroSerial);
+    }
+
+    @Override
+    public String toString() {
+        return "Smartphone{" +
+               "numeroSerial=" + numeroSerial +
+               ", marca='" + marca + '\'' +
+               '}';
     }
 }
