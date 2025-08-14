@@ -23,6 +23,9 @@
   * Strings
   * Datas(Date, Calendar, DateFormat, Locale, SimpleDateFormat, LocalDate, LocalTime, Duration, Period, ChoroUnit, TemporalAdjusters, DatterTimeFormatter)
   * Resource Bundle
-  * equals()
-  * hashCode() -- Parte introdutória do funcionamento
+- equals()
+- hashCode() -- Parte introdutória do funcionamento
+- collections:
+  * List
+
   
