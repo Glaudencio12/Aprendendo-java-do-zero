@@ -1,4 +1,4 @@
-package com.aprendizado.java.collections.List;
+package com.aprendizado.java.collections.List.testes;
 
 import java.util.ArrayList;
 import java.util.List;
