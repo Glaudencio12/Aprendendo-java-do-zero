@@ -24,8 +24,8 @@
   * Datas(Date, Calendar, DateFormat, Locale, SimpleDateFormat, LocalDate, LocalTime, Duration, Period, ChoroUnit, TemporalAdjusters, DatterTimeFormatter)
   * Resource Bundle
 - equals()
-- hashCode() -- Parte introdutória do funcionamento
+- hashCode() 
 - collections:
-  * List
+  * List (Comparable, Comparator, bunarySearch(), Conversão de lista para array e array para lista)
 
   

@@ -24,6 +24,7 @@ public class MangaSortComprableAndComparatorTest {
 
         for (Manga manga : mangaList){
             System.out.println(manga);
+
         }
 
         System.out.println("Usando comparator");
