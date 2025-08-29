@@ -1,6 +1,6 @@
-package com.aprendizado.java.collections.List.testes;
+package com.aprendizado.java.collections.list.testes;
 
-import com.aprendizado.java.collections.List.dominio.Manga;
+import com.aprendizado.java.collections.list.dominio.Manga;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.aprendizado.java.collections.List.testes;
+package com.aprendizado.java.collections.list.testes;
 
 import com.aprendizado.java.collections.equals_hashcode.Smartphone;
 

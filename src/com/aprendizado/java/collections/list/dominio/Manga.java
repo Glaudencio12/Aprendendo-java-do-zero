@@ -1,4 +1,4 @@
-package com.aprendizado.java.collections.List.dominio;
+package com.aprendizado.java.collections.list.dominio;
 
 import java.util.Objects;
 

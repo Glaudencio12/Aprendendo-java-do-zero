@@ -27,5 +27,6 @@
 - hashCode() 
 - collections:
   * List (Comparable, Comparator, bunarySearch(), Conversão de lista para array e array para lista)
-
+  * Set
+  * NavigableSet
   
