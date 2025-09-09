@@ -1,8 +1,5 @@
 package com.aprendizado.java.collections.praticas_de_fixação.lista_de_alunos;
 
-import com.aprendizado.java.collections.praticas_de_fixação.lista_de_alunos.model.Aluno;
-import com.aprendizado.java.collections.praticas_de_fixação.lista_de_alunos.service.AlunoService;
-
 import java.util.Scanner;
 
 public class Main {

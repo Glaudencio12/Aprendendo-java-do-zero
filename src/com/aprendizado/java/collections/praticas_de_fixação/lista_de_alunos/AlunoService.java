@@ -1,6 +1,4 @@
-package com.aprendizado.java.collections.praticas_de_fixação.lista_de_alunos.service;
-
-import com.aprendizado.java.collections.praticas_de_fixação.lista_de_alunos.model.Aluno;
+package com.aprendizado.java.collections.praticas_de_fixação.lista_de_alunos;
 
 import java.util.*;
 
