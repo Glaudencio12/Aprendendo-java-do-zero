@@ -1,4 +1,4 @@
-package com.aprendizado.java.collections.praticas_de_fixação.lista_de_alunos;
+package com.aprendizado.java.collections.praticas_de_fixação.Lista_de_alunos;
 
 import java.util.*;
 

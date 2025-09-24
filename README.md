@@ -31,4 +31,5 @@
   * NavigableSet
   * Map
   * NavigableMap
+  * Queue
   
