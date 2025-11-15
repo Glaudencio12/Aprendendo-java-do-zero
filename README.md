@@ -32,4 +32,5 @@
   * Map
   * NavigableMap
   * Queue
+- Generics
   
