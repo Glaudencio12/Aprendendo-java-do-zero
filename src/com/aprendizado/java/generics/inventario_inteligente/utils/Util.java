@@ -3,9 +3,8 @@ package com.aprendizado.java.generics.inventario_inteligente.utils;
 import com.aprendizado.java.generics.inventario_inteligente.Model.ItemBase;
 
 import java.util.Collection;
-import java.util.List;
 
-public class MenorElemento {
+public class Util {
     public static <T extends Comparable<T>> T menorElemento(T a, T b){
         return (a.compareTo(b) <= 0) ? a : b;
     }
@@ -19,6 +18,5 @@ public class MenorElemento {
     }
 
     public static void adicionaItem(Collection<? super ItemBase> colecao, ItemBase itemBase){
-        colecao.
-    }
-}
+        colecao.add(itemBase);
+    }}
